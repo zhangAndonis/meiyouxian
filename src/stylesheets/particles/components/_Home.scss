@@ -1,0 +1,21 @@
+
+
+
+.class-list{
+
+    display: flex;
+
+    a{
+        flex-grow: 1;flex-shrink: 1;
+        display: flex;flex-direction: column;
+        align-items: center;justify-content: space-around;
+
+        img{
+            width: 0.96rem;
+            height: 0.96rem;
+            margin-bottom: 0.08rem;
+        }
+
+    }
+
+}
