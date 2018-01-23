@@ -1,21 +1,185 @@
-
-
-
-.class-list{
-
-    display: flex;
-
-    a{
-        flex-grow: 1;flex-shrink: 1;
-        display: flex;flex-direction: column;
-        align-items: center;justify-content: space-around;
-
-        img{
-            width: 0.96rem;
-            height: 0.96rem;
-            margin-bottom: 0.08rem;
-        }
-
+.home-banner{
+    height: 1.6rem!important;
+    width: 100%!important;
+    margin-top: 0.38rem!important;
+    img{
+        width: 100%;
+        height: 1.6rem
     }
-
 }
+.swiper-pagination-bullet{
+    background: orange!important;
+}
+.img{
+    width: 100%;
+    height: 0.3rem;
+    img{
+        width: 100%;
+       
+    }
+}
+.homeimg{
+    width: 100%;
+    height: 0.857rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+    display: flex;
+    justify-content: space-around;
+    img{
+       width:1.75rem;
+       height: 100%;
+       
+    }
+}
+.rank{
+    width: 100%;
+    height: 1.6rem;
+    margin-top: 0.2rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.fruit-hot{
+    width: 100%;
+    height: 0.64rem;
+   
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.goddess{
+    width: 100%;
+    height: 1.605rem;
+    padding-left: 0.15rem;
+   
+    .msg{
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+        .title{
+            margin-top: 0.1rem;
+            h5{
+                font-size: 0.16rem;
+            }
+            p{
+                color: #878787;
+                margin-top: 0.05rem;
+            }
+           .price{
+                margin-top: 0.3rem;
+                color: #ff8000;
+                position: relative;
+                .sp1{
+                    font-size: 0.16rem;
+                }
+                b{
+                    display: inline-block;
+                    margin-left: 0.05rem;
+                    margin-right: 0.05rem;
+                }
+                .sp2{
+                    font-size: 0.12rem;
+                }
+                .add{
+                  display: inline-block;
+                  width: 0.25rem;
+                  height: 0.25rem;
+                  border:1px solid #ccc;
+                  border-radius: 0.5rem;
+                  text-align: center;
+                 
+                  font-size: 0.16rem;
+                  position: absolute;
+                  right: 0rem;
+                }
+            }
+        }
+    }
+}
+ .nav{
+        width:100%;
+        height: 1.7rem;
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       li{
+          
+           height: 1.7rem;
+           width: 1rem!important;
+           margin-right: 0.13rem;
+           display:inline-block;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           
+           img{
+               width: 0.96rem;
+               height: 0.96rem;
+           }
+            .name{
+                height: 0.6rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: -0.1rem;
+               
+                 .sp3{
+                    text-align: center;
+                    color: white;
+                    display: inline;
+                    width: 0.6rem;
+                    margin: 0 auto;
+                    border-radius: 0.05rem;
+                    margin-bottom: 0.05rem;
+                    height: 0.19rem;
+                    font-size: 0.12rem;
+                    line-height: 0.19rem;
+                }
+                 p{
+                   text-align: center;
+                   overflow: hidden;
+                   width: 0.96rem;
+                   font-size: 0.13rem;
+                   text-overflow:ellipsis;
+                   white-space: nowrap;
+                }
+            }
+            .price{
+                position: relative;
+                color: #ff8000;
+                width: 100%;
+                .sp1{
+                    font-size: 0.12rem;
+                }
+                b{
+                    display: inline-block;
+                    
+                }
+                .sp2{
+                    font-size: 0.12rem;
+                }
+                .jia{
+                  display: inline-block;
+                  width: 0.25rem;
+                  height: 0.25rem;
+                  border:1px solid #ccc;
+                  border-radius: 0.5rem;
+                  text-align: center;
+                  position: absolute;
+                  right: 0rem;
+                  font-size: 0.16rem;
+                  background: white;
+                }
+            }
+           
+        }
+ }

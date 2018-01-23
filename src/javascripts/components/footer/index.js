@@ -8,10 +8,10 @@ class Footer extends Component {
 		super(props)
         this.state = {
             navs:[
-                {id:1,text:'首页',icon:'\ue600',path:'/home'},
-                {id:2,text:'会员+',icon:'\ue67e',path:'/ranking'},
-                {id:3,text:'购物车',icon:'\ue61b',path:'/car'},
-                {id:4,text:'我的',icon:'\ue718',path:'/mine'},
+                {id:1,text:'首页',icon:'\ue699',path:'/home'},
+                {id:2,text:'分类',icon:'\ue605',path:'/ranking'},
+                {id:3,text:'购物车',icon:'\ue726',path:'/car'},
+                {id:4,text:'我的果园',icon:'\ue61d',path:'/mine'},
             ]
         }
 	}
