@@ -1,0 +1,186 @@
+.personal{
+     width: 100%;
+         height: 100vh;
+         background: url('https://wap.fruitday.com/content/images/me/login-bg.png') no-repeat 0 0;
+         background-size: 100% auto;
+}
+.personal_header{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    .avart-wrapper{
+        width: 90%;
+        height: 0.6rem;
+        display: flex;
+        position: relative;
+        .hy{
+            width: 0.5rem;
+            height: 100%;
+            position: relative;
+
+            img{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 0.2rem;
+                height: 0.2rem;
+            }
+        }
+       .user-info{
+            width: 1.5rem;
+            text-align: center;
+           
+            height: 100%;
+            p{
+               font-size: 0.18rem;
+               color: #666;
+            }
+            span{
+                display: block;
+                width:0.8rem;
+                height:0.2rem;
+                border-radius: 0.2rem;
+                background: #f93;
+                font-size: 0.12rem;
+                text-align: center;
+                line-height: 0.2rem;
+                color: white;
+                margin-left: 0.16rem;
+                margin-top: 0.1rem;
+            }
+        }
+        .erm{
+           
+            height: 100%;
+            position: absolute;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            i{
+                font-size: 0.4rem;
+                color: #666;
+            }
+            span{
+                font-size: 0.12rem;
+                color: #666;
+            }
+        }
+    }
+}
+.nav1{
+    width: 100%;
+    height: 0.54rem;
+   
+    ul{
+        width: 100%;
+        height: 0.54rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            span{
+                font-size: 0.12rem;
+            }
+            b{
+                color: #f93;
+            }
+        }
+    }
+}
+.indent{
+    width: 100%;
+    height: 0.45rem;
+    background: #fff;
+    padding-left: 0.1rem;
+    padding-right: 0.15rem;
+    margin-bottom: 0.02rem;
+    a{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       .mine{
+          height: 0.45rem;
+          display: flex;
+          text-align: center;
+           i{
+               font-size: 0.27rem;
+               margin-top: 0.1rem;
+           }
+            span{
+                margin-left: 0.15rem;
+               margin-top: 0.1rem;
+            }
+       }
+        .all1{
+            display: flex;
+            width: 0.8rem;
+            height: 0.45rem;
+            justify-content: space-between;
+            align-items: center;
+            span{
+                font-size: 0.12rem;
+                color:#666;
+                
+            }
+            i{
+                font-size: 0.15rem;
+                font-weight: normal;
+                color:#666;
+            }
+        }
+        .all{
+            display: flex;
+            width: 0.6rem;
+            height: 0.45rem;
+            justify-content: space-between;
+            align-items: center;
+            span{
+                font-size: 0.12rem;
+                color:#666;
+                
+            }
+            i{
+                font-size: 0.15rem;
+                font-weight: normal;
+                color:#666;
+            }
+        }
+    }
+   
+}
+.nav2{
+    width: 100%;
+    height: 0.8rem;
+    background: #FFF;
+    margin-top: 0.02rem;
+    margin-bottom: 0.1rem;
+    ul{
+        width: 100%;
+        height: 0.8rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height:0.8rem;
+            i{
+                font-size: 0.22rem;
+                color: #666;
+            }
+            span{
+                color: #666;
+                font-size: 0.12rem;
+            }
+        }
+    }
+}

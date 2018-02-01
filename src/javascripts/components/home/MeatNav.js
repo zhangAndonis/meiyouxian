@@ -1,7 +1,7 @@
 
 import React,{Component} from 'react'
 import axios from 'axios'
-class Handpick extends Component {
+class MeatNav extends Component {
     constructor(props){
         super(props)
         this.state={
@@ -17,7 +17,7 @@ class Handpick extends Component {
 		let that = this
 		axios.get('/api/v3/ad/homepage?connect_id=&type=0&lonlat=116.251514%2C40.116659&ad_code=110114&tab_id=')
           .then(function ({data}) {
-               that.setState({data:data.data.banner.mainBanners[7]}) 
+               that.setState({data:data.data.banner.mainBanners[17]}) 
           })
 	}
     
@@ -48,4 +48,4 @@ class Handpick extends Component {
 
 }
 
-export default Handpick
+export default MeatNav

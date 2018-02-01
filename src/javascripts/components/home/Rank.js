@@ -17,8 +17,7 @@ class Rank extends Component {
 		let that = this
 		axios.get('/api/v3/ad/homepage?connect_id=&type=0&lonlat=116.251514%2C40.116659&ad_code=110114&tab_id=')
           .then(function ({data}) {
-			   console.log(data)
-               that.setState({data:data.data.banner.mainBanners[5]}) 
+               that.setState({data:data.data.banner.mainBanners[4]}) 
           })
 	}
     
@@ -29,7 +28,7 @@ class Rank extends Component {
              <div className="rank">
 				 {
                      data.content.map((item)=>{
-                         return <img src={item.image} alt="" key={item.banner_ad_id}/>
+                         return <a href="https://huodong.fruitday.com/cms/indexapp_b2o/3732" key={item.banner_ad_id}><img src={item.image} alt=""/></a>
                      })
                  }
                 

@@ -19,7 +19,6 @@ class Banner extends Component {
 		let that = this
 		axios.get('/api/v3/ad/homepage?connect_id=&type=0&lonlat=116.251514%2C40.116659&ad_code=110114&tab_id=')
           .then(function ({data}) {
-			   console.log(data)
                that.setState({data:data.data.banner.mainBanners[0]}) 
           })
 	}
