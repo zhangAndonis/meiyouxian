@@ -1,0 +1,48 @@
+.info-header{
+    height: 0.46rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #fff;
+    a{
+        position: absolute;
+        left: 0.15rem;
+       .back{
+      
+        font-size: 0.3rem;
+        color: #75a739;
+    }
+    }
+   
+    .infos{
+        color: #75a739;
+        font-size: 0.16rem;
+    }
+}
+.kb{
+    height: 0.83rem;
+    background: #fff;
+    margin-top:0.02rem; 
+}
+.nickName{
+    height: 0.46rem;
+    background: #fff;
+    margin-top: 0.02rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.1rem;
+}
+.info-footer{
+    height: 0.46rem;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom:0;
+    border-top: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.18rem;
+}

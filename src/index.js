@@ -7,7 +7,13 @@ import Rank from './javascripts/components/rank/Rank'
 import KindContent from './javascripts/components/rank/KindContent'
 import Car from './javascripts/components/car/Car'
 import Mine from './javascripts/components/mine/Mine'
+
 import GoodList from './javascripts/components/rank/GoodList'
+
+import Infos from './javascripts/components/mine/Infos'
+import Address from './javascripts/components/mine/Address'
+import AddAddress from './javascripts/components/mine/AddAddress'
+
 import registerServiceWorker from './registerServiceWorker';
 import {Router,Route,IndexRedirect,hashHistory, Redirect} from 'react-router'
 
@@ -21,8 +27,15 @@ ReactDOM.render(
 				<Route path="ranking" component={Rank}/>
 				<Route path="car" component={Car}/>
 				<Route path="mine" component={Mine}/>
+
 				<Route path="goodlist" component={GoodList}/>
 			
+
+				<Route path="infos" component={Infos}/>
+				<Route path="address" component={Address}/> 
+				<Route path="addaddress" component={AddAddress}/>
+				<Redirect from="*" to="home"/> 
+
 		    </Route>
         </Router>
     
