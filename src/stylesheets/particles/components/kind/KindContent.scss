@@ -1,0 +1,64 @@
+.KindContent{
+    margin-left: .8rem;
+    padding: .1rem .1rem .18rem .1rem;
+    position: relative;
+    margin-top: .47rem;  
+    text-align: center;
+    &:before {
+        content: " ";
+        display: table;
+        h3 {
+            display: block;
+            font-weight: 400;
+            height: .3rem;
+            line-height: .3rem;
+            text-align: center;
+            margin: 0;
+            font-size: .14rem;
+        }
+    }
+    .all{
+            display:block;
+            position: absolute;
+            top: .06rem;
+            right: 0;
+            height: .3rem;
+            line-height: .3rem;
+            font-size: .12rem;
+            color: #878787;
+            padding-right: .08rem;
+            .allicon{
+                display: inline-block;
+                width: .1rem;
+                font-size: .12rem;
+            }
+        }
+    
+    dl {
+        width: 33%;    
+        display: block;
+        height:1.1rem;
+        float: left;
+        text-align: center;
+        padding-bottom: .2rem;
+        dt {
+            width: 0.9rem;
+            height: 0.7rem;
+            padding: 0 .1rem;
+            img {
+                border: 0;
+                width: 100%;
+                display: block;
+            }
+        }
+        dd{
+            font-size: .13rem;
+            margin-top: .04rem;
+            color: #3a3a3a;
+        }
+    }
+    :after{
+    content: " ";
+    display: table;
+    }
+}

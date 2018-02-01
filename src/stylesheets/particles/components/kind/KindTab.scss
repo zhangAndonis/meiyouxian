@@ -1,0 +1,32 @@
+.kindtabul{
+    position: fixed;
+    left: 0;
+    top: .47rem;
+    width: .8rem;
+    background: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    overflow-y: auto;
+    height: calc(100% - .89rem);
+    .kindtabli{
+        height: .42rem;
+        width: .78rem;
+        line-height: .46rem;
+        font-size: .15rem;
+        color: #3a3a3a;
+        border: .02rem solid #f5f5f5;
+        border-right: 0;
+        display: list-item;
+        
+    }
+    .active{
+        height: .42rem;
+        width: .78rem;
+        line-height: .46rem;
+        font-size: .15rem;
+        border-left: .02rem solid #65a032;
+        color: #65a032;
+        background: #fff;
+        display: list-item;
+    }
+}

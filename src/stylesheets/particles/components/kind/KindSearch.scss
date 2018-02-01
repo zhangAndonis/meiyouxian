@@ -1,0 +1,23 @@
+.kindsearch{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: .28rem;
+    text-align: center;
+    background: #f8f8f8;
+    border-bottom: .01rem solid #d8d8d8;
+    .kindsearchtext{
+        width: 3.6rem;
+        height: 0.28rem;
+        margin: .08rem;
+        background: #eee;
+        border: none;
+        outline: none;
+        border-radius: .04rem;
+        color: #878787;
+        font-size: .12rem;
+        text-align: center;
+        position: relative;
+    }
+}

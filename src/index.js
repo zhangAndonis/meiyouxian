@@ -4,8 +4,10 @@ import './stylesheets/index.scss';
 import App from './javascripts/App';
 import Home from './javascripts/components/home/Home'
 import Rank from './javascripts/components/rank/Rank'
+import KindContent from './javascripts/components/rank/KindContent'
 import Car from './javascripts/components/car/Car'
 import Mine from './javascripts/components/mine/Mine'
+import GoodList from './javascripts/components/rank/GoodList'
 import registerServiceWorker from './registerServiceWorker';
 import {Router,Route,IndexRedirect,hashHistory, Redirect} from 'react-router'
 
@@ -19,7 +21,8 @@ ReactDOM.render(
 				<Route path="ranking" component={Rank}/>
 				<Route path="car" component={Car}/>
 				<Route path="mine" component={Mine}/>
-				<Redirect from="*" to="home"/> 
+				<Route path="goodlist" component={GoodList}/>
+			
 		    </Route>
         </Router>
     
