@@ -6,10 +6,15 @@ import {Link} from 'react-router'
 class Address extends Component {
 	 constructor(props){
         super(props);
+        this.state={
+        	data:JSON.parse(localStorage.address_info?localStorage.address_info:'[]')
+        }
        
 	}
-    
-	
+//  componentDidUpdate(){
+//  	this.state.data = 
+//  }
+//	
 	render(){
 		
 		
@@ -22,10 +27,11 @@ class Address extends Component {
 				</div>
 				<div>
 					<ul>
-						{JSON.parse(localStorage.address_info)?JSON.parse(localStorage.address_info).map((item,i)=>{
-							console.log(item.id)
+						{
+							this.state.data?this.state.data.map((item,i)=>{
 							 return <li className="address_ino" key={i}><span className="name">{item.userName}</span><span>{item.iphoneCode}</span><p>{item.address}</p><i className="iconfont">&#xe639;</i></li> 
-						}):''}
+						}):''
+							}
 					</ul>
 					
 				</div>
